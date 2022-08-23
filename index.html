@@ -1,0 +1,204 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/pokebola.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pokemon</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__img">
+            <img src="assets/img/logo.png" alt="Logo do pokemon">
+        </div>
+    </header>
+
+    <section class="popular">
+        <h2 class="popular__titulo">Most popular in this week</h2>
+        <div class="popular__carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="popular__text">
+                            <h3 class="popular__titulo--card">Bulbasaur</h3>
+                            <p class="popular__descricao">There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</p>
+                            <p class="popular__type">Seed</p>
+                        </div>
+
+                        <div class="popular__img">
+                            <img src="assets/img/bulbasaur.svg" alt="Bulbasaur">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="popular__text">
+                            <h3 class="popular__titulo--card">Charizard</h3>
+                            <p class="popular__descricao">It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.</p>
+                            <p class="popular__type">Fire</p>
+                        </div>
+
+                        <div class="popular__img">
+                            <img src="assets/img/charizard.svg" alt="Bulbasaur">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="popular__text">
+                            <h3 class="popular__titulo--card">Wartortle</h3>
+                            <p class="popular__descricao">It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.</p>
+                            <p class="popular__type">Water</p>
+                        </div>
+
+                        <div class="popular__img">
+                            <img src="assets/img/wartortle.svg" alt="Bulbasaur">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="collect">
+        <h2 class="collect__titulo">Your collection</h2>
+        <div class="collect__header">
+            <input type="search" placeholder="Search" class="collect__search">
+
+            <div class="collect__botao">
+                <a href="#" class="collect__add">
+                    <img src="assets/img/pokebola.svg" alt="pokebola">
+                </a>
+            </div>
+        </div>  
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Blastoise</h3>
+                <p class="card__numero">Nº009</p>
+            </div>
+
+            <div class="card__type">
+                <div class="water">Water</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/blastoise.svg" alt="Blastoise">
+            </div>
+        </div>
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Pidgeot</h3>
+                <p class="card__numero">Nº018</p>
+            </div>
+
+            <div class="card__type">
+                <div class="Normal">Normal</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/pidgeot.svg" alt="Pidgeot">
+            </div>
+        </div>
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Pikachu</h3>
+                <p class="card__numero">Nº025</p>
+            </div>
+
+            <div class="card__type">
+                <div class="Electric">Electric</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/pikachu.svg" alt="Pikachu">
+            </div>
+        </div>
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Raichu</h3>
+                <p class="card__numero">Nº026</p>
+            </div>
+
+            <div class="card__type">
+                <div class="Electric">Electric</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/raichu.svg" alt="Raichu">
+            </div>
+        </div>
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Arcanine</h3>
+                <p class="card__numero">Nº059</p>
+            </div>
+
+            <div class="card__type">
+                <div class="Fire">Fire</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/arcanine.svg" alt="Arcanine">
+            </div>
+        </div>
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Alakazam</h3>
+                <p class="card__numero">Nº065</p>
+            </div>
+
+            <div class="card__type">
+                <div class="Psychic">Psychic</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/alakazam.svg" alt="Alakazam">
+            </div>
+        </div>
+
+        <div class="collect__card">
+            <div class="card__text">
+                <h3 class="card__name">Mr. Mime</h3>
+                <p class="card__numero">Nº122</p>
+            </div>
+
+            <div class="card__type">
+                <div class="Psychic">Psychic</div>
+            </div>
+
+            <div class="card__img">
+                <img src="assets/img/mrmime.svg" alt="Mr.Mime">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
